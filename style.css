@@ -17,8 +17,7 @@
     
 }
 .book {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .book img {
@@ -31,3 +30,9 @@
     font-size: 1.2rem;
     text-align: center;
 }
+.book {
+    height:400px;
+    width: 250px;
+    margin: 20px;
+  }
+  
