@@ -42,10 +42,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     background-color: #28a745;
     color: #fff;
     padding: 40px 0;
+    height: 20px;
 }
 
 .footer-content {
