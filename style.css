@@ -11,8 +11,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
-    width: 250px;
+    margin: 50px;
+    height: 650px;
+    width: 300px;
 
 }
 
@@ -31,11 +32,6 @@
     text-align: center;
 }
 
-.book {
-    height: 400px;
-    width: 250px;
-    margin: 20px;
-}
 
 .footer {
     display: flex;
