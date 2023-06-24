@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-NWfPjZsznnCpE1wJq3xW2a/sy+1OzO5vR8mkDskQJnwbZ1/c/42KwRnL7ABzPfNkgD7pJMQSWjX3dIuZhzCefg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- LazyLoad CSS -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/12.2.0/lazyload.min.css">
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+
+        <title>KnowledgeHub</title>
+        <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        max-width: 1000px;
+        height: 700px;
+      }
+      .book {
+        padding: 20px;
+        text-align: center;
+        margin: 10px;
+        background-color: #f1f1f1;
+      }
+    </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">KnowledgeHub</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu"
+                                aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Cybersecurity
+                                        Books</a></li>
+                                <li><a class="dropdown-item" href="#">Programming
+                                        Books</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="about-section">
+                <div class="container">
+                    <h1>About KnowledgeHub</h1>
+                    <p>
+                        KnowledgeHub is a platform dedicated to providing free
+                        and accessible educational resources to learners
+                        worldwide. We believe that knowledge is the key to
+                        personal and professional growth, and our mission is to
+                        empower individuals with the information they need to
+                        succeed.
+                    </p>
+                    <p>
+                        Through our curated collection of eBooks, articles,
+                        tutorials, and learning materials, KnowledgeHub covers a
+                        wide range of topics spanning technology, science,
+                        business, arts, and more. Whether you're a student,
+                        professional, or simply curious about the world around
+                        you, KnowledgeHub is your gateway to expanding your
+                        knowledge and enhancing your skills.
+                    </p>
+                    <p>
+                        Our team of experts and passionate contributors strive
+                        to deliver high-quality content that is informative,
+                        engaging, and up-to-date. We aim to inspire a love for
+                        learning, foster intellectual curiosity, and support
+                        individuals in their lifelong pursuit of knowledge.
+                    </p>
+                    <p>
+                        Join our growing community of learners, educators, and
+                        knowledge enthusiasts. Explore our extensive library,
+                        participate in discussions, and share your own
+                        expertise. Together, let's unlock the power of knowledge
+                        and unleash a world of possibilities.
+                    </p>
+                </div>
+            </section>
+
+            <section class="figure-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <figure class="text-center">
+                                <img src="knowledge-hub-graphic.jpg"
+                                    alt="KnowledgeHub Graphic">
+                            </figure>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Explore the World of Knowledge</h2>
+                            <p>
+                                KnowledgeHub offers a diverse range of resources
+                                to fuel your learning journey. Whether you're
+                                interested in cybersecurity, programming, data
+                                science, or any other field, our platform has
+                                something for everyone.
+                            </p>
+                            <p>
+                                With our user-friendly interface, intuitive
+                                navigation, and comprehensive content, you can
+                                easily access the information you need and
+                                discover new insights to broaden your horizons.
+                            </p>
+                            <p>
+                                Join us today and embark on an exciting
+                                adventure of knowledge exploration. Together,
+                                let's unleash your full potential and unlock
+                                endless opportunities for growth and success.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-success text-light">
+            <div class="   py-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>About KnowledgeHub</h4>
+                        <p>KnowledgeHub is a platform dedicated to providing
+                            free and accessible educational resources to
+                            learners worldwide. We believe that knowledge is the
+                            key to personal and professional growth, and our
+                            mission is to empower individuals with the
+                            information they need to succeed.
+                            <br>
+                            <a href="../free-cybersecurity-ebooks/about.html">Read
+                                More</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Contact Us</h4>
+                        <p><br>Email:
+                            info@knowledgehub.com</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Follow Us</h4>
+                        <ul class="list-unstyled">
+                            <a href="https://github.com/hackerwhale"><i
+                                    class="fas fa-brands fa-github"></i>Github</a>
+                            <a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-light py-2">
+                <div class=" text-center">
+                    <p class="mb-0">&copy; 2023 KnowledgeHub. All Rights
+                        Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Required Bootstrap JavaScript files -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/2c30892cb9.js"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
