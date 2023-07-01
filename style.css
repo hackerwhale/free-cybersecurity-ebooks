@@ -63,3 +63,8 @@
 .footer .copyright {
     font-size: 14px;
 }
+.horizontal-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
