@@ -1,25 +1,30 @@
 # KnowledgeHub: A Platform for Cybersecurity Enthusiasts 
 
-[![GitHub license](https://img.shields.io/github/license/USERNAME/REPOSITORY)](https://github.com/USERNAME/REPOSITORY/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/hackerwhale/free-cybersecurity-ebooks)](https://github.com/hackerwhale/free-cybersecurity-ebooks/blob/main/LICENSE)
+
+
+![image](https://github.com/hackerwhale/free-cybersecurity-ebooks/assets/100342753/17d52011-cb30-43da-a292-c9a162301aaf)
+
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
+- [Accessing Free Cybersecurity E-books](#license)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
 
-To get started with KnowledgeHub, simply clone this repository and run the following command to install the required dependencies:
+## Accessing Free Cybersecurity E-books
 
-```sh
-npm install
-```
+To access the collection of free cybersecurity-related e-books available on KnowledgeHub, you can directly visit the website [here](https://hackerwhale.github.io/free-cybersecurity-ebooks/). Simply click on the link to explore and download the available e-books without the need for any additional installations or cloning of the repository.
+
+You can browse through the collection and download the e-books of your choice directly from the website.
+
+If you encounter any issues or have suggestions for additional e-books to be included, please feel free to create an issue or reach out through the provided contact information on the website.
+
+We hope you find these resources helpful in your journey to enhance your cybersecurity knowledge and skills.
 
 
-<h1>Usage</h1>
-Once you have installed the dependencies, you can simply open the HTML file in your web browser to access the list of free cybersecurity-related e-books available on KnowledgeHub.
 
 <h1>Contributing</h1>
 Contributions to this repository are always welcome! If you would like to contribute, please follow these steps:<br>
